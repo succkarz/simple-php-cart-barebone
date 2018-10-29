@@ -30,7 +30,7 @@
                 while($row=mysqli_fetch_assoc($res)){
                         echo "<div class='one-half column' style='margin-left: 1em;'>";
                         echo "<strong>$row[title]</strong><br/>";
-                        echo "<img width='150px' height='250px' src='prod-img/$row[image]'/> <br>";
+                        echo "<img width='150px' height='200px' src='prod-img/$row[image]'/> <br>";
                         echo "<strong>Description:</strong> $row[description]<br/>";
                         echo "<strong>Price:</strong> $$row[price]<br/>";
                         echo "<a href='index.php?atc=$row[id]'><strong>Add To Cart</strong></a>";
